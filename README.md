@@ -1,4 +1,4 @@
-![屏幕截图 2025-06-13 031919](https://github.com/user-attachments/assets/120e832c-bb53-4c15-a062-05bab8cd223a)
+
 
 # 英文文档关键词索引器
 
@@ -17,18 +17,17 @@
 **标注页码：** 在排序后的词汇旁边，软件会清晰地标注出该词汇在原始文档中出现的每一个页码。
 
 **自动化专业排版:** 这是本工具的一大亮点。它生成的不是一个普通的文本文件，而是一个包含了 Typst 排版代码的 .txt 文件。
+&nbsp;该文件已经预设了：
+    
+&nbsp;&nbsp;页面布局: A4纸张、两栏布局，适合阅读和打印。
 
-    该文件已经预设了：
+&nbsp;&nbsp;标题与字体: 包含大标题、字体和字号设置。
     
-    页面布局: A4纸张、两栏布局，适合阅读和打印。
-
-    标题与字体: 包含大标题、字体和字号设置。
+&nbsp;&nbsp;分组标题: 每个字母分组前都有醒目的分组标题，如 "A", "B", "C"。
     
-    分组标题: 每个字母分组前都有醒目的分组标题，如 "A", "B", "C"。
+&nbsp;这意味着您可以之间将txt文件内容复制入typst中
     
-    这意味着您可以之间将txt文件内容复制入typst中
-    
-    最终输出的索引文件便是一份结构清晰、格式精美的文档，您可以直接使用或轻松打印。
+&nbsp;最终输出的索引文件便是一份结构清晰、格式精美的文档，您可以直接使用或轻松打印。
 
 ## 核心价值：化繁为简
 
@@ -47,7 +46,7 @@
 ### **第 1 步：下载程序**
 
 通过“Code”选项下载ZIP压缩包，其中包含了本教程和程序文件。
-![1](![屏幕截图 2025-06-13 031919](https://github.com/user-attachments/assets/913a9e7a-ca57-448a-b61a-0ddd54988fad)
+(![屏幕截图 2025-06-13 031919](https://github.com/user-attachments/assets/913a9e7a-ca57-448a-b61a-0ddd54988fad)
 )
 -----
 
@@ -67,7 +66,7 @@
 ### **第 3 步：运行程序**
 
 通过VSCode打开程序文件夹，找到 `.py` 结尾的Python文件，点击右上角的“运行”按钮（或按 `F5`）。
-![2](![屏幕截图 2025-06-13 032030](https://github.com/user-attachments/assets/dd00e5c1-408b-4823-81df-ba86f5411fe5)
+(![屏幕截图 2025-06-13 032030](https://github.com/user-attachments/assets/dd00e5c1-408b-4823-81df-ba86f5411fe5)
 )
 -----
 
@@ -76,7 +75,8 @@
 在弹出的程序窗口中，点击“选择Word文件”，上传你的文档。
 
 > **建议：** Word文件本身最好带有页码，方便后续对照查阅。
-![3](![屏幕截图 2025-06-13 032315](https://github.com/user-attachments/assets/0347bf13-ef5d-409c-b61e-b57f07d65be3)
+
+(![屏幕截图 2025-06-13 032315](https://github.com/user-attachments/assets/0347bf13-ef5d-409c-b61e-b57f07d65be3)
 )
 -----
 
@@ -87,14 +87,14 @@
       * **模式二**: 尝试提取关键短语，算法仍在开发中，效果可能不佳。
       * **模式三**: 提取所有词汇，不过滤任何词，结果比较冗杂。
 2.  **点击“开始生成索引”** 并稍作等待。
-![4](![屏幕截图 2025-06-13 032341](https://github.com/user-attachments/assets/8ae02e3c-83fb-47d9-bbeb-47d24bc0365f)
+(![屏幕截图 2025-06-13 032341](https://github.com/user-attachments/assets/8ae02e3c-83fb-47d9-bbeb-47d24bc0365f)
 )
 -----
 
 ### **第 6 步：保存索引文件**
 
 程序处理完成后，会弹出窗口让你选择保存位置并为生成的 `.txt` 文件命名。
-![5](![屏幕截图 2025-06-13 032909](https://github.com/user-attachments/assets/405c5c76-1bda-48b7-8b1f-4f34b855441b)
+(![屏幕截图 2025-06-13 032909](https://github.com/user-attachments/assets/405c5c76-1bda-48b7-8b1f-4f34b855441b)
 )
  
 -----
@@ -102,7 +102,7 @@
 ### **第 7 步：获取Typst代码**
 
 打开上一步保存的 `.txt` 文件，全选（`Ctrl+A`）并复制（`Ctrl+C`）所有内容。这个文件里保存的是基于 `Typst` 排版语言写成的索引表代码。
-![6](![屏幕截图 2025-06-13 032909](https://github.com/user-attachments/assets/71d755a1-386c-4cf4-8b9b-fc0433b39032)
+(![屏幕截图 2025-06-13 032909](https://github.com/user-attachments/assets/71d755a1-386c-4cf4-8b9b-fc0433b39032)
 )
 
 -----
@@ -111,7 +111,7 @@
 
 1.  访问 **[Typst官网](https://typst.app/home)** 并注册一个免费账号。
 2.  在工作台内新建一个空白文档 (Empty document)。
-![7](![屏幕截图 2025-06-13 033303](https://github.com/user-attachments/assets/ca5e77a9-263e-43fa-966d-c0f8935b9a95)
+(![屏幕截图 2025-06-13 033303](https://github.com/user-attachments/assets/ca5e77a9-263e-43fa-966d-c0f8935b9a95)
 )
 
 -----
@@ -119,7 +119,7 @@
 ### **第 9 步：粘贴代码并预览**
 
 将刚才复制的 `.txt` 文本内容粘贴到Typst编辑器**左侧**的代码区，稍等片刻，**右侧**就会实时渲染出格式精美的索引预览。
-![8](![屏幕截图 2025-06-13 033447](https://github.com/user-attachments/assets/62a8719c-e4cf-4dd6-bc03-88b81d1f9a45)
+(![屏幕截图 2025-06-13 033447](https://github.com/user-attachments/assets/62a8719c-e4cf-4dd6-bc03-88b81d1f9a45)
 )
 
 -----
@@ -127,7 +127,7 @@
 ### **第 10 步：下载PDF**
 
 确认预览无误后，点击右上角的**下载图标**，即可将索引保存为PDF文件，方便查阅和打印。
-![9](![屏幕截图 2025-06-13 033604](https://github.com/user-attachments/assets/729ce8cb-cb5a-4072-be59-b6df2622eea3)
+(![屏幕截图 2025-06-13 033604](https://github.com/user-attachments/assets/729ce8cb-cb5a-4072-be59-b6df2622eea3)
 )
 
 
