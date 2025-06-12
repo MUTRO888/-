@@ -65,7 +65,7 @@
 
 ### **第 3 步：运行程序**
 
-通过VSCode打开程序文件夹，找到 `.py` 结尾的Python文件，点击右上角的“运行”按钮（或按 `F5`）。
+通过VSCode打开程序文件夹，找到 `.py` 结尾的Python文件（最新版），点击右上角的“运行”按钮（或按 `F5`）。
 
 ![屏幕截图 2025-06-13 032030](https://github.com/user-attachments/assets/dd00e5c1-408b-4823-81df-ba86f5411fe5)
 
